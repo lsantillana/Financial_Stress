@@ -1,14 +1,14 @@
 
-# STUDENT FINANCES DATA --------------------------------------------------
+# DATA CLEANING --------------------------------------------------
 #
 # UW SEFS Graduate Student Financial Stress Survey
 
 # Designed: Spring 2023 Quarter
 # Polled: Spring 2023 Quarter
-# Code by: Lety Santillana, Fern Crossway, ....
+# Code by: Lauren Satterfield, Miro Stuke, Lety Santillana, ....
 #
 # PURPOSE: 
-# ------------------------------------------------------------------------
+# --------------------------------------------------------------------
 
 # clear workspace
 # rm(list = ls(all.names = TRUE))
@@ -20,6 +20,4 @@ library(dplyr)
 library(questionr) #for processing survey data
 
 # read in raw data
-survey <- read.csv(".csv")
-
-# subset your data for only student finances
+survey <- read.csv("SEFS Graduate Student Finances Survey_4.25.csv")  # please update from survey and change date whenever possible
