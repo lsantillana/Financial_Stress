@@ -20,6 +20,8 @@ library(dplyr)
 library(questionr) #for processing survey data
 
 # read in raw data
-survey <- read.csv(".csv")
+survey <- read.csv("SEFS Graduate Student Finances Survey_49 responses.csv")
 
 # subset your data for only student finances
+
+student_fin <- survey[8:25]
